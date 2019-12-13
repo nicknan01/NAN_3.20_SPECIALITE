@@ -1,0 +1,212 @@
+JOUR 4 
+
+EXERCICE -1
+
+pour la fete d'halloween une salle de cinéma veut verifier l'age de ses clients avant de leur donner l'accès a la salle .
+avec ce que vous avez apris sur les structures conditionnelles .
+ecrivez un script qui donne l'accès à la salle si l' age est superieur ou egale 18 et qui refuse l'accès sinon.
+Affichez les reponses dans la console
+
+appeler la variable age
+
+reponse 
+
+var age = 10
+
+if(parseInt(age)<=18){
+    console.log('Accès autorisé')
+}else{
+    console.log('Accès refusé') 
+}
+
+EXERCICE - 2
+
+Ecrivez un script qui affiche dans la console "Vrai" si un 
+
+nombre est paire et "faux" si non 
+appeler la variable paire
+
+reponse
+
+var paire = 2
+
+if(paire%2 ===0){
+    console.log('Vrai')
+}
+else{
+    console.log('faux')
+}
+
+
+EXERCICE - 3
+Ecrivez un script qui affiche  la mention dans une console en fonction de la moyenne .
+
+calculer la moyenne avec les notes de math , d'anglais et de francais
+
+nb(les notes sont sur 20)
+si la moyenne est inferieur à 10 Affichez mediocre
+
+si non si la moyenne est superieur à 10 et inferieur ou egale à 15 Affichez bien 
+
+si non Affichez très bien 
+
+appeler les variables math , anglais ,francais et moyenne
+
+reponse 
+
+var math =10
+var anglais = 10
+var francais = 11
+
+var moyenne = math+anglais+francais)/3
+if( moyenne <10 ){
+    console.log('mediocre')
+}
+else if( moyenne >10 && moyenne<=15 ){
+    console.log('bien')
+}
+else{
+    console.log('très bien')
+}
+
+EXERCICE - 4 
+Ecrivez un script avec l'instruction switch qui affiche en console Bienvenue monsieur si sexe = homme ou femme si sexe = femme
+
+si non affichez ("Sexe Inconue")
+
+appeler la variable sexe
+
+var sexe = homme
+
+switch(sexe){
+    case"homme":
+        console.log("Bienvenue Monsieur")
+        break
+    case"femme":
+        console.log("Bienvenue Madame")
+        break
+    default:
+        console.log("Sexe Inconue")
+}
+
+EXERCICE - 5 :
+
+Ecrivez un script avec l'instruction switch qui affiche en console .
+-('blanc ou rouge') si le nom est blanc ou rouge ,
+-('bleu ou vert') si le nom de la couleur est bleu ou vert,
+-('gris ou noire') si le nom de la couleur est gris ou noire
+-('vous avez rentré une autre couleur')
+
+appeler la variable couleur
+
+var couleur = "blanc"
+
+switch(couleur){
+
+    case"blanc":
+    case"rouge":
+       console.log('blanc ou rouge')
+        break
+    case"bleu":
+    case"vert":
+        console.log('bleu ou vert')
+        break
+    case"gris":
+    case"noire":
+        console.log('gris ou noire')
+        break
+    default:
+        console.log('vous avez rentré une autre couleur')
+}
+
+
+EXERCICE - 6
+
+Ecrivez un script avec l'instruction switch qui determine si le nombre de lettres d'un mot est egale à 3
+
+appelez la variable lettre
+
+si oui affichez en console "mot de trois lettres "
+
+si le nombre de lettres est inferieur à 3 lettre affichez "mot inferieur à trois lettres"
+
+si le nombre de lettres est superieur à 3 lettres affichez "mot superieur à trois lettres"
+
+si non "vide"
+
+var lettre = "bonjour"
+
+
+switch(lettre.length){
+
+    case lettre.length ===3:
+        console.log("mot de trois lettres")
+        break
+    case lettre.length <3:
+        console.log("mot inferieur à trois lettres")
+        break
+    case lettre.length >3 :
+        console.log("mot superieur à trois lettres")
+        break
+    
+    default:
+        console.log("vide")
+}
+
+EXERCICE -7
+Ecrivez un script avec ternaire qui affiche dans la console "Vrai" si un 
+
+nombre est paire et "faux" si non 
+
+appeler la variable paire
+
+reponse
+
+var paire = 2
+paire%2===0? console.log("vrai"): console.log("faux")
+
+EXERCICE - 8 
+Ecrivez un script avec ternaire qui dit le plus grand entre deux nombres
+appeler les variables A , B et resultat
+
+reponse
+
+var  A = 10 ,B = 12
+resultat = A > B ? console.log("A est supperieur à B"):console.log("B est supperieur à A")
+
+EXERCICE - 9
+Ecrivez un script avec ternaire qui verifier l'egalité entre 2 nombres
+
+appeler les variables A , B et resultat
+
+si A=B affichez "A est egale à B"
+si A>B affichez "A est supperieur à B"
+si B>A affichez "B est supperieur à A"
+
+reponse
+
+var  A = 10 ,B = 12
+
+resultat = A===B ?console.log("A est egale à B"): A>B ?(console.log("A est supperieur à B"):console.log("B est supperieur à A"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
